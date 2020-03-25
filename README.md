@@ -10,4 +10,4 @@ $ yarn install
 # run
 $ yarn dev
 ```
-- `localhost:300`0へアクセス
+- `localhost:3000`へアクセス
