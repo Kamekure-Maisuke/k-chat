@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>ChatCord App</title>
+</head>
+
+<body>
+  <div class="join-container">
+    <header class="join-header">
+      <h1>k-chat</h1>
+    </header>
+    <main class="join-main">
+      <form action="application.html">
+        <div class="form-control">
+          <label for="username">名前</label>
+          <input type="text" name="username" id="username" placeholder="名前を入力してください" required />
+        </div>
+        <div class="form-control">
+          <label for="room">部屋</label>
+          <select name="room" id="room">
+            <option value="Nogizaka">乃木坂</option>
+            <option value="Keyakizaka">欅坂</option>
+            <option value="Hinatazaka">日向坂</option>
+          </select>
+        </div>
+        <button type="submit" class="btn">参加</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
